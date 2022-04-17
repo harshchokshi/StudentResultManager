@@ -1,0 +1,141 @@
+-----------------------------------------------
+------ Welcome to FedUni Results Manager ------
+-----------------------------------------------
+Main Menu - please select an option:
+1.) Add course
+2.) Add student
+3.) Add result
+4.) View results
+5.) Quit
+
+Enter your option: 1
+ 
+Please enter course code: ITECH5403
+Please enter course name: Comparative Programming Languages
+
+Would you like to [A]dd a new course or [R]eturn to the previous menu?
+A
+
+Please enter course code: ITECH3229
+Please enter course name: Mobile Device Programming
+
+Would you like to [A]dd a new course or [R]eturn to the previous menu?
+R
+
+Main Menu - please select an option:
+1.) Add course
+2.) Add student
+3.) Add result
+4.) View results
+5.) Quit
+
+Enter your option: 2
+ 
+Please enter student id: 30170001
+Please enter student name: Alan Black
+
+Would you like to [A]dd a new student or [R]eturn to the previous menu?
+A
+
+Please enter student id: 30170002
+Please enter student name: Chandra Dhal
+
+Would you like to [A]dd a new student or [R]eturn to the previous menu?
+E
+
+Invalid input. Please choice either between A or R!!! 
+
+
+Would you like to [A]dd a new student or [R]eturn to the previous menu?
+R
+
+Main Menu - please select an option:
+1.) Add course
+2.) Add student
+3.) Add result
+4.) View results
+5.) Quit
+
+Enter your option: 3
+ 
+Please enter student id: 12345678
+Student does not exist.
+
+Please enter student id: 30170001
+Please enter course code: ITECH1234
+Course does not exist.
+
+Please enter course code: ITECH5403
+Please enter final score: 68.4
+
+Would you like to [A]dd a new result or [R]eturn to the previous menu?
+A
+
+Please enter student id: 30170001
+Please enter course code: ITECH3229
+Please enter final score: 9999
+Score is not between 0.0 and 100.0 inclusive.
+
+Please enter final score: Bananas
+Score is not between 0.0 and 100.0 inclusive.
+
+Please enter final score: 85.6
+
+Would you like to [A]dd a new result or [R]eturn to the previous menu?
+A
+
+Please enter student id: 30170002
+Please enter course code: ITECH5403
+Please enter final score: 75.3
+
+Would you like to [A]dd a new result or [R]eturn to the previous menu?
+R
+
+Main Menu - please select an option:
+1.) Add course
+2.) Add student
+3.) Add result
+4.) View results
+5.) Quit
+
+Enter your option: 4
+ 
+Would you like to view [C]ourse results, [S]tudent results or [R]eturn?
+C
+Please enter course code: ITECH9999
+Course does not exist.
+
+Please enter course code: ITECH5403
+
+Results for course: ITECH5403
+30170002 - Chandra Dhal - 75.3
+30170001 - Alan Black - 68.4
+Maximum score: 75.3
+Minimum score: 68.4
+
+
+Would you like to view [C]ourse results, [S]tudent results or [R]eturn?
+S
+Please enter student id: 12345678
+Student does not exist.
+
+Please enter student id: 30170001
+
+Results for student: 30170001 - Alan Black
+ITECH5403 - 68.4
+ITECH3229 - 85.6
+Average result: 77.0
+
+
+Would you like to view [C]ourse results, [S]tudent results or [R]eturn?
+R
+Main Menu - please select an option:
+1.) Add course
+2.) Add student
+3.) Add result
+4.) View results
+5.) Quit
+
+Enter your option: 5
+ 
+Thanks for using FedUni Results Manager!
