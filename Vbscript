@@ -1,0 +1,21 @@
+
+Sub Se()
+
+Dim i As Integer
+Dim var As Variant
+i = 0
+For j = 3 To 500
+
+If IsEmpty(Range("D" & j).value) = False Then
+      
+      i = i + 1
+      Range("D" & j).Select
+      var = Range("D" & j).value
+      replaced_text = Mid(var, 1, 2)
+      starting_text = Replace(var, replaced_text, "")
+      Range("D" & j).value = starting_text
+      Else
+      i = 0
+End If
+Next
+End Sub
