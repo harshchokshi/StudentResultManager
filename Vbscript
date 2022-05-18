@@ -19,3 +19,24 @@ If IsEmpty(Range("D" & j).value) = False Then
 End If
 Next
 End Sub
+
+Sub Series()
+
+Dim i As Integer
+Dim var As Variant
+i = 0
+For j = 3 To 500
+
+If IsEmpty(Range("D" & j).Value) = False Then
+      
+      i = i + 1
+      Range("D" & j).Select
+      var = Range("D" & j).Value
+      Range("D" & j).Value = i & ". " & var
+      
+      Else
+      i = 0
+
+End If
+Next
+End Sub
