@@ -1,42 +1,17 @@
-
-Sub Se()
-
+Sub RemoveNum()
 Dim i As Integer
 Dim var As Variant
+Dim replacement_text As String
 i = 0
-For j = 3 To 500
-
-If IsEmpty(Range("D" & j).value) = False Then
-      
+For j = 1 To 5000
+If IsEmpty(Range("B" & j).Value) = False Then
       i = i + 1
-      Range("D" & j).Select
-      var = Range("D" & j).value
-      replaced_text = Mid(var, 1, 2)
-      starting_text = Replace(var, replaced_text, "")
-      Range("D" & j).value = starting_text
+      Range("B" & j).Select
+      var = Range("B" & j).Value
+      replacement_text = Mid(var, 1, 2)
+      Range("B" & j).Value = Replace(var, replacement_text, "")
       Else
       i = 0
-End If
-Next
-End Sub
-
-Sub Series()
-
-Dim i As Integer
-Dim var As Variant
-i = 0
-For j = 3 To 500
-
-If IsEmpty(Range("D" & j).Value) = False Then
-      
-      i = i + 1
-      Range("D" & j).Select
-      var = Range("D" & j).Value
-      Range("D" & j).Value = i & ". " & var
-      
-      Else
-      i = 0
-
 End If
 Next
 End Sub
